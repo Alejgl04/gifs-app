@@ -1,0 +1,18 @@
+html,body {
+  height: 100%;
+}
+
+#sidebar {
+  height: 100%;
+  min-height: 100vh;
+  min-width: 180px;
+}
+.cursor{
+  cursor: pointer;
+}
+
+.close-icon{
+  position: absolute;
+  right: 10px;
+  top: 0px;
+}

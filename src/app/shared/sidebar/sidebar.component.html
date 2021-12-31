@@ -1,0 +1,14 @@
+<div class="bg-dark border-right p-3" id="sidebar">
+  <h3 class="text-light">
+    Gifs-App
+  </h3>
+  <hr class="text-white">
+  <div class="list-group list-rest">
+    <a 
+      class="list-group-item list-group-item-action text-center cursor" 
+      *ngFor="let item of historySidebar; let i=index;"
+      (click)="searchSidebar(item)">
+      {{item | titlecase }}
+    </a>
+  </div>
+</div>
